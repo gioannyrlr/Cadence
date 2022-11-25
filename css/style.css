@@ -101,8 +101,9 @@
 }
 
 .page-footer{
-  background-image: url("/Marhaba-Lebanese/img/background-footer.png");
+  background-image: url("/img/background-footer.png");
 }
+
 .footer-text{
   font-size: 15px;
 }
@@ -115,7 +116,11 @@
   align-items: center;
 }
 .social-container a{
-  color:rgb(216, 216, 216);
+  color:rgb(150, 150, 150) !important;
   font-size: 35px;
   margin:0px 20px;
+}
+
+.social-container a:hover{
+  color: rgb(220, 220, 220) !important;
 }
